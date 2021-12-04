@@ -14,7 +14,7 @@
 </head>
 <body class="twitter bg-dark">
     <!-- Form Input -->
-    <div class="container row formInput bg-black p-4 mt-5 mx-auto">
+    <div class="container formInput bg-black p-4 mt-5 mx-auto">
         <h1 class="text-white text-center mb-4">Twitter Post Generator</h1>
         <div class="form-floating mb-3">
             <input type="text" class="form-control" name="inputName" id="inputName" placeholder="inputName">
@@ -28,25 +28,27 @@
             <textarea class="form-control" name="inputPost" id="inputPost" placeholder="inputPost"></textarea>
             <label for="inputPost">Post</label>
         </div>
-        <div class="col-sm-6">
-            <div class="form-floating mb-3">
-                <input type="time" class="form-control" name="inputTime" id="inputTime" placeholder="inputTime">
-                <label for="inputTime">Time</label>
-            </div>
-        </div>
-        <div class="col-sm-6">
-            <div class="form-floating mb-3">
-                <input type="date" class="form-control" name="inputDate" id="inputDate" placeholder="inputDate">
-                <label for="inputDate">Date</label>
-            </div>
-        </div>
         <div class="form-floating mb-3">
             <input type="text" class="form-control" name="inputDevice" id="inputDevice" placeholder="inputDevice">
             <label for="inputDevice">Device</label>
         </div>
-        <div class="d-flex justify-content-evenly">
-            <button class="btn btn-primary" onclick="process()">SUBMIT</button>
-            <button class="btn btn-danger" onclick="reset()">RESET</button>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="form-floating mb-3">
+                    <input type="time" class="form-control" name="inputTime" id="inputTime" placeholder="inputTime">
+                    <label for="inputTime">Time</label>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="form-floating mb-3">
+                    <input type="date" class="form-control" name="inputDate" id="inputDate" placeholder="inputDate">
+                    <label for="inputDate">Date</label>
+                </div>
+            </div>
+            <div class="col-12 justify-content-evenly">
+                <button class="btn btn-primary" onclick="process()">SUBMIT</button>
+                <button class="btn btn-danger" onclick="reset()">RESET</button>
+            </div>
         </div>
     </div>
     <!-- Post Twitter -->
