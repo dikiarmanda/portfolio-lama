@@ -54,3 +54,19 @@ hr {
 footer p, footer a {
     text-decoration: none;
 }
+
+/* twitter generator */
+.twitter .container {
+    box-sizing: border-box;
+    border-radius: 30px;
+    max-width: 600px;
+}
+
+.twitter .container img {
+    width: 50px;
+}
+
+.twitter .logo {
+    color: #1D9BF2;
+}
+/* twitter generator */
