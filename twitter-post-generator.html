@@ -32,7 +32,7 @@
             <input type="text" class="form-control" name="inputDevice" id="inputDevice" placeholder="inputDevice">
             <label for="inputDevice">Device</label>
         </div>
-        <div class="row">
+        <div class="row justify-content-evenly">
             <div class="col-sm-6">
                 <div class="form-floating mb-3">
                     <input type="time" class="form-control" name="inputTime" id="inputTime" placeholder="inputTime">
@@ -45,8 +45,10 @@
                     <label for="inputDate">Date</label>
                 </div>
             </div>
-            <div class="col-12 justify-content-evenly">
+            <div class="col-6">
                 <button class="btn btn-primary" onclick="process()">SUBMIT</button>
+            </div>
+            <div class="col-6">
                 <button class="btn btn-danger" onclick="reset()">RESET</button>
             </div>
         </div>
