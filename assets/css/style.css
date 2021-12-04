@@ -60,6 +60,7 @@ footer p, footer a {
     box-sizing: border-box;
     border-radius: 30px;
     max-width: 600px;
+    background-color: #000;
 }
 
 .twitter .container img {
