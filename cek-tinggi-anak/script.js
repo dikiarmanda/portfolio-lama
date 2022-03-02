@@ -16,3 +16,7 @@ function cek() {
         document.getElementById("result").innerHTML="<div class='alert alert-danger' role='alert'>Tinggi yang Anda inputkan harus lebih dari 0</div>";
     }
 }
+
+function reset() {
+    location.reload();
+}
